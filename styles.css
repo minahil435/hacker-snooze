@@ -1,0 +1,88 @@
+body{
+    background-color: #878787;
+}
+
+#main{
+    padding: 10px;
+    background-color:black;
+    margin-top: 10px;
+    width: 80%;
+}
+
+#header{
+    background-color: #FF6600;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+}
+ol{
+    background-color: black;
+    color: wheat;
+}
+
+.parent{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+#arrowImageDiv{
+    color: white;
+    text-align: center;
+}
+
+#emptySpace{
+    width: 10px;
+}
+
+.greyFont{
+    font-size:x-small;
+    color:#878787;
+}
+
+#titleDiv{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    word-wrap: break-word;
+    font-size: smaller;
+    color:white;
+    text-decoration: none;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content:start;
+    align-items: flex-end;
+    gap: 5px;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+
+}
+@media screen and (max-width :  800px) {
+
+    .top{
+        flex-direction: column;
+        justify-content:center;
+        align-items: flex-start;
+
+    }
+
+  #titleDiv{
+    font-size: x-small;
+  }
+
+ } 
+
